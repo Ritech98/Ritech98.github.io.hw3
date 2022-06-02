@@ -309,6 +309,7 @@ ul {
   background-color: var(--team-bg);
   color: var(--text-color);
   cursor: pointer;
+  margin-right: 8px;
 }
 
 .button-p:hover,
