@@ -43,8 +43,6 @@ ul {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .logo {
@@ -69,6 +67,8 @@ ul {
   line-height: 1.17;
   text-align: center;
   color: var(--text-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .footer-contact-link {
   font-style: normal;
@@ -213,38 +213,35 @@ ul {
   color: var(--alternative-text);
 }
 
-.work-section {
-  padding-bottom: 94px;
-}
-
 .work-list {
   display: flex;
-}
-
-.work-value:not(:last-child) {
-  margin-right: 30px;
+  justify-content: space-between;
 }
 
 .section-title {
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-section {
+  background-color: var(--team-bg);
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--team-bg);
 }
 
 .team-list {
   display: flex;
-}
-
-.team-value:not(:last-child) {
-  margin-right: 30px;
+  justify-content: space-between;
+  border-radius: 0px;
 }
 
 .team-team {
-  padding: 30px 0px;
+  padding: 15px 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  align-items: baseline;
 }
 
 .team-employee {
@@ -286,15 +283,15 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.p-c {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .button-p-l {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.button-p-v:not(:last-child) {
-  margin-right: 8px;
 }
 
 .button-p {
@@ -323,17 +320,15 @@ ul {
 .p-l {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
-}
-
-.p-v {
-  margin: 15px;
+  gap: 20px;
 }
 
 .p-b {
-  border: 1px solid #ffffff;
-  border-top: transparent;
-  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  background: var(--main-bg-color);
+  margin-top: -5px;
 }
 
 .p-l-title {
@@ -344,8 +339,6 @@ ul {
 }
 
 .p-l-text {
-  margin-top: 4px;
-
   font-size: 16px;
   line-height: 1.87;
   color: var(--alternative-text);
