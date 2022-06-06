@@ -216,6 +216,7 @@ ul {
 .work-list {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -281,7 +282,6 @@ ul {
 
 .p-s {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 .p-c {
   padding-top: 94px;
@@ -320,8 +320,9 @@ ul {
 
 .p-l {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .p-b {
@@ -330,6 +331,7 @@ ul {
   border-bottom: 1px solid #eeeeee;
   background: var(--main-bg-color);
   margin-top: -5px;
+  margin-bottom: 30px;
 }
 
 .p-l-title {
